@@ -150,3 +150,72 @@ text-align: center;
     letter-spacing: 0%;
     text-align: center;
 }
+/* About Section  */
+.about{
+    display: flex;
+    margin-bottom: 130px;
+}
+.abt-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-details > h2{
+    /* width: 805px; */
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.about-details > .dis{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+}
+.about-details > .follow{
+    padding: 30px 10px 30px 10px;
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+.icons > a > .fa-brands{
+    /* width: 80px;
+    height: 80px; */
+    font-size: 40px;
+    padding-top: 32px;
+}
+.icons > a > .fa-facebook:hover{
+    color: #1877F2;
+}
+.icons > a > .fa-square-x-twitter:hover{
+    color: #1DA1F2;
+}
+.icons > a > .fa-square-instagram:hover{
+    color: #C13584;
+}
+.icons > a > .fa-pinterest:hover{
+    color: #E60023;
+}
+/* Footer Section */
